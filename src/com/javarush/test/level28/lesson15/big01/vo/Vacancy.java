@@ -4,12 +4,12 @@ package com.javarush.test.level28.lesson15.big01.vo;
  * Created by Stanislav on 28.08.2016.
  */
 public class Vacancy {
-    private String title;
-    private String salary;
-    private String city;
-    private String companyName;
-    private String siteName;
-    private String url;
+    String title;
+    String salary;
+    String city;
+    String companyName;
+    String siteName;
+    String url;
 
     @Override
     public boolean equals(Object o) {
